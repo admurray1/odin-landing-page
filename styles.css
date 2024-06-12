@@ -27,7 +27,7 @@ body {
 h1 {
     font-size: 48px;
     color: #f9faf8;
-    font-weight: 900;
+    font-weight: 1000;
     margin: 0;
 }
 
@@ -88,3 +88,4 @@ a {
     align-self: center;
 }
 
+/* Section two styling */
