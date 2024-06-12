@@ -70,14 +70,15 @@ a {
     justify-content: space-between;
 }
 
-.hero-button {
-    background-color: #3882f6;
+button {
     color: #f9faf8;
     border-radius: 10px;
     width: 150px;
     padding: 10px 5px;
     font-size: 20px;
     font-weight: 800;
+    background-color: #3882f6;
+    border: none;
 }
 
 .hero-image {
@@ -91,7 +92,7 @@ a {
 /* Section two styling */
 
 .section-two {
-    background-color: white;
+    background-color: #f9faf8;
     margin: 0 64px;
     display: flex;
     flex-direction: column;
@@ -151,4 +152,41 @@ a {
     color: black;
     font-weight: 800;
     align-self: flex-end;
+}
+
+/* Section four styling */
+
+.section-four {
+    background-color: #f9faf8;
+    margin: 0 64px;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 200px;
+    gap: 150px;
+    border-radius: 10px;
+}
+
+.action-box button {
+    border: 2px solid #f9faf8;
+}
+
+.box-top-text {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.box-bottom-text {
+    font-size: 20px;
+    color: #e5e7eb;
 }
